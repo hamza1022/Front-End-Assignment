@@ -1,6 +1,8 @@
 // I is for rows and Index is for Columns
 // H A M Z A  
 
+let n = 5 ;
+
 let H = "";
 for (i = 0; i < 5; i++) {
   for (let index = 0; index < 5; index++) {
@@ -57,8 +59,8 @@ console.log(M);
 
 
 let Z = "";
-for (i = 0; i < 5; i++) {
-  for (let index = 0; index < 5; index++) {
+for (i = 0; i < 15; i++) {
+  for (let index = 0; index < 2; index++) {
     if (i == 0 || i == 4 || index == 4 - i) {
       Z += "*";
     }
@@ -67,7 +69,7 @@ for (i = 0; i < 5; i++) {
     }
   }
   Z += "\n";
-
+  
 }
 console.log(Z);
 
