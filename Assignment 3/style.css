@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Noto+Serif:ital@1&family=Open+Sans:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+    /* background: url(images/bg2.avif); */
+    height: 100vh;
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.main-container{
+    background-color: white;
+    border-radius: 60px;
+    padding: 50px 20px;
+    max-width: 100%;
+    box-shadow: 10px 10px 5px rgb(4, 198, 233);
+    width: 800px;
+    text-align: center;
+    margin-left: 50px;
+}
+h3{
+    margin: 0;
+    letter-spacing: 2px;
+    opacity: 0.5;
+}
+.joke{
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+
+}
+.btn {
+    background-color: rgba(8, 206, 228, 0.937);
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgb(142 58 84 / 47%);
+    padding: 14px 40px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 19px;
+}
+.btn:active{
+    transform: scale(.90);
+}
+
+.text{
+    font-size: 30px;
+}
